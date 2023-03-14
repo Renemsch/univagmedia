@@ -55,7 +55,7 @@ body {
 }
 
 .conteudo-principal-escrito-titulo{
-    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 64px;
     color: #fff2e7;
@@ -65,7 +65,7 @@ body {
 .conteudo-principal-escrito-subtitulo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     color: #ecd6c4;
 }
 
@@ -121,7 +121,24 @@ body {
 }
 
 .rodape-imagem {
-    height: 48px;
-    display: block;
-    margin: 0 auto
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 120px;
+    height: 50px;
+}
+
+.contato {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ecd6c4
+}
+
+.contato {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
 }
